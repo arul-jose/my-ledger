@@ -1,0 +1,59 @@
+.welcome-container {
+    display: flex;
+    height: inherit;
+}
+
+
+.welcome-left-container {
+    background-image: url("../public/welcome-img1.jpg");
+    background-color: antiquewhite;
+    width: 65%;
+    text-align: center;
+    
+    
+}
+.welcome-title{
+    margin-top: 200px;
+    color: rgb(60, 15, 116);
+    
+}
+.inside-text{
+    color: white;
+    padding: 5px;
+    
+}
+
+.welcome-right-container {
+    background-color:white;
+    width: 35%;
+}
+.choose-container{
+    text-align: center;
+    margin-top: 210px;
+    
+}
+.login-btn{
+    background: rgb(170,49,185);
+    background: linear-gradient(180deg, rgba(170,49,185,1) 0%, rgba(112,67,208,0.7961309523809523) 100%);
+    border-color: white;
+    height: 40px;
+    width: 180px;
+    color: white;
+    border-radius: 25px;
+   margin-bottom: 10px;
+   font-size: 17px;
+}
+.register-btn{
+    background: rgb(170,49,185);
+    background: linear-gradient(180deg, rgba(170,49,185,1) 0%, rgba(112,67,208,0.7961309523809523) 100%);
+    border-color: white;
+    height: 40px;
+    width: 180px;
+    color: white;
+    border-radius: 25px;
+    font-size: 17px;
+    
+}
+.user-text{
+    color: rgb(60, 15, 116);
+}
