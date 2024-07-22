@@ -1,6 +1,10 @@
 .welcome-container {
     display: flex;
     height: inherit;
+    margin: auto;
+    width: 70%;
+    height: calc(100vh - 300px);
+  box-shadow: 0px 5px 10px 0px rgb(60 34 72 / 50%);
 }
 
 
@@ -13,7 +17,7 @@
     
 }
 .welcome-title{
-    margin-top: 200px;
+    /*margin-top: 200px;*/
     color: rgb(60, 15, 116);
     
 }
@@ -29,7 +33,7 @@
 }
 .choose-container{
     text-align: center;
-    margin-top: 210px;
+    /*margin-top: 210px;*/
     
 }
 .login-btn{
@@ -57,3 +61,43 @@
 .user-text{
     color: rgb(60, 15, 116);
 }
+
+
+
+@media only screen  and (min-width : 1224px) {
+
+}
+    
+/*smartphone*/
+@media only screen and (max-width : 400px) {
+    .app-container{
+        margin-top: 40px;
+        margin-bottom: 40px;
+        height: calc(100vh - 80px);
+      }
+
+
+    .welcome-left-container {
+        display: none;
+    }
+    .welcome-right-container {
+        
+        width: 100%;
+    }
+    .header{
+        color: rgb(44, 10, 85);
+       margin-bottom: 30px;
+        
+      }
+}
+
+
+@media only screen  and (min-width : 1224px) {
+    .welcome-container{
+      margin-top: 80px;
+      margin-bottom: 80px;
+      height: calc(100vh - 180px);
+      
+    }
+    }
+  

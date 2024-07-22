@@ -17,6 +17,7 @@ function Welcome() {
     updateStatus("choose");
   }
   return (
+  
     <div className="welcome-container">
       <div className="welcome-left-container">
         <h2 className='welcome-title'>WELCOME TO MY-LEDGER</h2>
