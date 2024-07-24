@@ -13,6 +13,7 @@
     background-color: antiquewhite;
     width: 65%;
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
     
     
 }
@@ -24,12 +25,14 @@
 .inside-text{
     color: white;
     padding: 5px;
-    
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .welcome-right-container {
     background-color:white;
     width: 35%;
+    font-family: 'Open Sans', sans-serif;
 }
 .choose-container{
     text-align: center;
@@ -81,7 +84,7 @@
         display: none;
     }
     .welcome-right-container {
-        
+        margin: auto;
         width: 100%;
     }
     .header{
